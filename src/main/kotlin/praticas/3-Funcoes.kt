@@ -67,18 +67,13 @@ fun mostrarNotas(materia:String){
         else{
             println("Não foi possível mostrar as notas da matéria ${materia}")
         }
-
         println()
     }
-
-
 }
 
 /*Retorna a média obtida apartir de uma lista de notas */
 fun calcularMedia(materia:String){
-
     val listaNotas = materiasENotas[materia]
-
     if (listaNotas != null) {
         var cont = 0.0
         var somaNotas = 0.0
@@ -104,10 +99,6 @@ fun adicionarVariasNotas(materia:String, vararg notas:Double): Boolean{
     val notasMateria = materiasENotas[materia] ?: return false
     notasMateria.addAll(notas.toList())
     return true
-}
-
-fun exibirTudo(){
-
 }
 
 fun main(){
