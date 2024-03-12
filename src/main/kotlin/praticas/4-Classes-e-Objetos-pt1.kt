@@ -21,7 +21,6 @@ class Produto {
     }
 }
 
-
 // Questão 2
 class Cliente {
     var nome: String = ""
