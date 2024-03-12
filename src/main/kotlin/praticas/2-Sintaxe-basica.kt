@@ -23,7 +23,7 @@ fun inputTitulo(): String {
 }
 
 fun inputPreco(): Double {
-    var preco = 0.0
+    var preco: Double
     do{
         print("Digite o preco do livro: ")
         preco = readlnOrNull()!!.toDouble()
