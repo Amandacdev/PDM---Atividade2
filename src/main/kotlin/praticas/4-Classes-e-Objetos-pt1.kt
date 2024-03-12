@@ -23,6 +23,8 @@ class Cliente {
 
 fun main() {
     // Crie uma instância de Cliente e chame o método mostrarIdade() para verificar seu funcionamento.
+
+
 }
 
 // Questão 3
